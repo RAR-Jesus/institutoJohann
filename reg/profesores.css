@@ -1,0 +1,115 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+* {
+    box-sizing: inherit
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+}
+
+input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0px;
+    padding: 0px;
+    transition: all .3s;
+}
+
+/* ---------- ALIGN ---------- */
+
+.align {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ---------- GRID ---------- */
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    width: 400px;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login h2 {
+    background: #4e93e2;
+    border-radius: 20px 20px 0 0;
+    color: #000;
+    font-size: 28px;
+    padding: 20px 26px;
+    text-align: center;
+}
+
+#login h2 span[class*="fontawesome-"] {
+    margin-right: 14px;
+}
+
+#login fieldset {
+    background: rgba(199, 199, 199, 0.867);
+    border-radius: 0 0 20px 20px;
+    padding: 20px 26px;
+}
+
+#login fieldset p {
+    color: rgb(73, 73, 73);
+    margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+    margin-bottom: 0;
+}
+
+#login fieldset input {
+    border-radius: 3px;
+}
+
+#login fieldset input[type="email"],
+#login fieldset input[type="password"] {
+    background: #eee;
+    color: rgb(65, 64, 64);
+    padding: 4px 10px;
+    width: 100%;
+}
+
+#login fieldset a {
+    background: #33cc77;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 4px 0;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#login fieldset a:hover {
+    background: #056832;
+}
