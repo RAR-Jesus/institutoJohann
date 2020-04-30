@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
     <title>Johann</title>
     <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="/css/estilo.css" type="text/css" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link href="/css/estilo.css" type="text/css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="nav-wrapper blue">
-            <a class="brand-logo center">Logo</a>
-        </div>
+      <div class="nav-wrapper blue">
+        <a class="brand-logo center">Inicio de sesión</a>
+      </div>
     </nav>
     <div class="row">
-        <div class="col s12">
-            <ul class="tabs">
-                <li class="tab col s6"><a href="#test1"
-                        onClick="MM_showHideLayers('tokyo','','show','akihabara','','hide','shinjuku','','hide','roppongi','','hide')">Alumnos</a>
-                </li>
-                <li class="tab col s6"><a href="#test2"
-                        onClick="MM_showHideLayers('tokyo','','hide','akihabara','','show','shinjuku','','hide','roppongi','','hide')">Profesores</a>
-                </li>
-            </ul>
-        </div>
-        <div id="test1" class="col s12 white">
-            <section id="tokyo">
-                <article>
-                    <iframe src="./registro/registroAlumnos.html"></iframe>
-                </article>
-            </section>
-        </div>
-        <div id="test2" class="col s12 white">
-            <section id="akihabara">
-                <article>
-                    <iframe src="./registro/registroProfesores.html"></iframe>
-                </article>
-            </section>
-        </div>
+      <div class="col s12">
+        <ul class="tabs" style="height: 150px;">
+          <li class="tab col s6 red-text text-lighten-1" style="height: 100px;">
+            Alumnos<a
+              href="#test1"
+              onClick="MM_showHideLayers('tokyo','','show','akihabara','','hide','shinjuku','','hide','roppongi','','hide')"
+            >
+              <img src="/img/Estudiantes.png" alt="#" style="width: 100px; margin-bottom: 0px;"/></a>
+          </li>
+          <li class="tab col s6 red-text text-lighten-1" style="height: 100px;">
+            Maestros<a href="#test2" onClick="MM_showHideLayers('tokyo','','hide','akihabara','','show','shinjuku','','hide','roppongi','','hide')">
+              <img src="/img/Profesores.png" alt="#" style="width: 100px; margin-bottom: 0px;"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12 white">
+        <section id="tokyo">
+          <article>
+            <iframe src="./registro/registroAlumnos.html"></iframe>
+          </article>
+        </section>
+      </div>
+      <div id="test2" class="col s12 white">
+        <section id="akihabara">
+          <article>
+            <iframe src="./registro/registroProfesores.html"></iframe>
+          </article>
+        </section>
+      </div>
     </div>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/estilo.js"></script>
-</body>
-
+  </body>
 </html>
