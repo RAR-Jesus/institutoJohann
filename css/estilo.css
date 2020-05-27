@@ -41,10 +41,10 @@ iframe {
 }
 
 .border {
-    width: 160px;
-    height: 2px;
-    background: #e92525;
-    margin: 40px auto;
+    width: 260px;
+    height: 3px;
+    background: #25bbe9;
+    margin: 10px auto;
 }
 
 .services-container {
@@ -65,8 +65,8 @@ iframe {
     display: inline-block;
     width: 80px;
     height: 80px;
-    border: 3px solid #bb0707;
-    color: #b8bbbb;
+    border: 3px solid #d537f1;
+    color: #474747;
     transform: rotate(45deg);
     margin-bottom: 30px;
     margin-top: 16px;
@@ -80,7 +80,7 @@ iframe {
 }
 
 .service-box:hover .service-icon {
-    background: #b3b4b4;
+    background: #dbdbdb;
     color: rgb(22, 22, 22);
 }
 
